@@ -16,3 +16,8 @@ pip install flask
 ```
 python3 app.py
 ```
+
+## Folder structure as per Flask
+
+1. All the publically available static content goes to `static` folder.
+2. ALl the templates i.e html files goes to `templates` folder
