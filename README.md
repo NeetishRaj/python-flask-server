@@ -35,3 +35,18 @@ virtualenv env
 # to start working in the new environment console
 source env/bin/activate
 ```
+
+## Setup SQLite database
+
+```
+# make sure the SQL data model is defined in app.py
+
+# install flask globally to use flask shell
+sudo apt install python3-flask
+
+flask shell
+
+from app import db
+db.create_all()
+```
+This should setup a /instance/test.db database
