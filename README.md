@@ -21,3 +21,17 @@ python3 app.py
 
 1. All the publically available static content goes to `static` folder.
 2. ALl the templates i.e html files goes to `templates` folder
+
+
+## set up virtual env to precent global package installs
+
+```
+pip3 install virtualenv
+
+
+# create a virtual environment named 'env'
+virtualenv env
+
+# to start working in the new environment console
+source env/bin/activate
+```
