@@ -1,4 +1,4 @@
-# Basic python server using Flask
+# Python | Flask  | Website hosting (templates)
 
 ## Project setup
 
